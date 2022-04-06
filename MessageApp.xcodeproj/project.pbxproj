@@ -12,6 +12,7 @@
 		C08B650527FDC8FD00D25111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08B650427FDC8FD00D25111 /* Assets.xcassets */; };
 		C08B650827FDC8FD00D25111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08B650727FDC8FD00D25111 /* Preview Assets.xcassets */; };
 		C08B651027FDCA3500D25111 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B650F27FDCA3500D25111 /* TitleRow.swift */; };
+		C08B651327FDCE1300D25111 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651227FDCE1300D25111 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C08B650427FDC8FD00D25111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C08B650727FDC8FD00D25111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C08B650F27FDCA3500D25111 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		C08B651227FDCE1300D25111 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				C08B650027FDC8FB00D25111 /* MessageAppApp.swift */,
 				C08B650227FDC8FB00D25111 /* ContentView.swift */,
+				C08B651127FDCE0400D25111 /* Modals */,
 				C08B650E27FDCA1000D25111 /* Components */,
 				C08B650427FDC8FD00D25111 /* Assets.xcassets */,
 				C08B650627FDC8FD00D25111 /* Preview Content */,
@@ -76,6 +79,14 @@
 				C08B650F27FDCA3500D25111 /* TitleRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C08B651127FDCE0400D25111 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				C08B651227FDCE1300D25111 /* Message.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C08B650327FDC8FB00D25111 /* ContentView.swift in Sources */,
+				C08B651327FDCE1300D25111 /* Message.swift in Sources */,
 				C08B650127FDC8FB00D25111 /* MessageAppApp.swift in Sources */,
 				C08B651027FDCA3500D25111 /* TitleRow.swift in Sources */,
 			);
