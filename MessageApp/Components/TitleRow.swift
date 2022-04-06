@@ -34,7 +34,7 @@ struct TitleRow: View {
                 
                 Text("Online")
                     .font(.caption)
-                    .foregroundColor(Color(.darkGray))
+                    .foregroundColor(.white)
                 
             }
             .frame(maxWidth: .infinity, alignment: .leading)
