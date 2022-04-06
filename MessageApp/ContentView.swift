@@ -14,25 +14,29 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack{
-            TitleRow()
-            
-            ScrollView{
+        VStack {
+            VStack{
+                TitleRow()
                 
-                ForEach(messageArray, id: \.self){ text in
+                ScrollView{
                     
-                    MessageBubble(message: Message(id: "12345", text: text, received: true, time: Date()))
+                    ForEach(messageArray, id: \.self){ text in
+                        
+                        MessageBubble(message: Message(id: "12345", text: text, received: true, time: Date()))
+                        
+                    }
+                    
                     
                 }
-                
+                .padding(.top, 10)
+                .background(.white)
+                .cornerRadius(30, corners: [.topLeft, .topRight])
                 
             }
-            .padding(.top, 10)
-            .background(.white)
-            .cornerRadius(30, corners: [.topLeft, .topRight])
+            .background(Color("Blue"))
             
+            MessageField()
         }
-        .background(Color("Blue"))
         
         
         

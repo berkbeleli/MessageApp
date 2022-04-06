@@ -15,6 +15,7 @@
 		C08B651327FDCE1300D25111 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651227FDCE1300D25111 /* Message.swift */; };
 		C08B651527FDCEA800D25111 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651427FDCEA800D25111 /* MessageBubble.swift */; };
 		C08B651827FDD2AA00D25111 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651727FDD2AA00D25111 /* Extension.swift */; };
+		C08B651C27FDD3CA00D25111 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651B27FDD3CA00D25111 /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C08B651227FDCE1300D25111 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C08B651427FDCEA800D25111 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		C08B651727FDD2AA00D25111 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C08B651B27FDD3CA00D25111 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				C08B650F27FDCA3500D25111 /* TitleRow.swift */,
 				C08B651427FDCEA800D25111 /* MessageBubble.swift */,
+				C08B651B27FDD3CA00D25111 /* MessageField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				C08B650327FDC8FB00D25111 /* ContentView.swift in Sources */,
 				C08B651327FDCE1300D25111 /* Message.swift in Sources */,
 				C08B651527FDCEA800D25111 /* MessageBubble.swift in Sources */,
+				C08B651C27FDD3CA00D25111 /* MessageField.swift in Sources */,
 				C08B651827FDD2AA00D25111 /* Extension.swift in Sources */,
 				C08B650127FDC8FB00D25111 /* MessageAppApp.swift in Sources */,
 				C08B651027FDCA3500D25111 /* TitleRow.swift in Sources */,
