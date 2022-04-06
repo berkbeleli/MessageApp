@@ -13,6 +13,8 @@
 		C08B650827FDC8FD00D25111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08B650727FDC8FD00D25111 /* Preview Assets.xcassets */; };
 		C08B651027FDCA3500D25111 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B650F27FDCA3500D25111 /* TitleRow.swift */; };
 		C08B651327FDCE1300D25111 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651227FDCE1300D25111 /* Message.swift */; };
+		C08B651527FDCEA800D25111 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651427FDCEA800D25111 /* MessageBubble.swift */; };
+		C08B651827FDD2AA00D25111 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B651727FDD2AA00D25111 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C08B650727FDC8FD00D25111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C08B650F27FDCA3500D25111 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		C08B651227FDCE1300D25111 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C08B651427FDCEA800D25111 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		C08B651727FDD2AA00D25111 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				C08B650E27FDCA1000D25111 /* Components */,
 				C08B650427FDC8FD00D25111 /* Assets.xcassets */,
 				C08B650627FDC8FD00D25111 /* Preview Content */,
+				C08B651727FDD2AA00D25111 /* Extension.swift */,
 			);
 			path = MessageApp;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				C08B650F27FDCA3500D25111 /* TitleRow.swift */,
+				C08B651427FDCEA800D25111 /* MessageBubble.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			files = (
 				C08B650327FDC8FB00D25111 /* ContentView.swift in Sources */,
 				C08B651327FDCE1300D25111 /* Message.swift in Sources */,
+				C08B651527FDCEA800D25111 /* MessageBubble.swift in Sources */,
+				C08B651827FDD2AA00D25111 /* Extension.swift in Sources */,
 				C08B650127FDC8FB00D25111 /* MessageAppApp.swift in Sources */,
 				C08B651027FDCA3500D25111 /* TitleRow.swift in Sources */,
 			);
